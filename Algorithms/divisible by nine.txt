@@ -1,0 +1,12 @@
+Begin
+step:1 x=40,y=90,k=0
+step:2 while(x<=y)
+      {
+        if(x%9==0)
+       {
+         k=k+x
+         x=x+1
+       }
+      }
+step:3 display k
+End

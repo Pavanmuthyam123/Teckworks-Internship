@@ -1,0 +1,5 @@
+start
+step:1 Read p,t,r
+step:2 total=(p*t*r)/100
+step:3 display total
+stop
