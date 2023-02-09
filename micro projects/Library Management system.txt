@@ -1,0 +1,84 @@
+//Library management system
+Begin
+step1:display "select Category"
+				New registration
+                 Adminstrator
+                 Student              
+step2: if(category=Adminstrator) 
+            {
+             step :display "enter your registered id"
+              step: read id
+              step: if(id=valid)
+                      {
+                        step: display "Acceptable"
+                         step: display "options"
+                                  Add Books
+                                  Remove old Books
+                               
+                         step: if(option=Add Books)
+                             {
+                               step: display "enter category"
+                                step: read category
+                                 if(category=valid)
+                                   {
+                                   step: display "enter book name, book id"
+                                    step :read book name , book id
+                                      if(book name or book id !=valid)
+                                           {
+                                              step: display  book name ,id
+                                               step: display "book is added"
+                                           }
+                                       else
+                                           {
+                                              step: display "Book is already available"
+                                           }
+                                 else
+                                    {
+                                 step: display "invalid category"
+                                    }
+                               }
+                step: elseif(option=Remove old books)
+                           {
+                               step: display "enter book id"
+                                step: read id
+                                     if(id=valid)
+                                       {
+                                             step: display "book is removed"
+                                       }
+                                     else
+									 {
+                                             step :display  " book is already removed"
+                                       }
+         				  }
+step3:elseif(category=Student)
+         {
+         step :display "enter your registered id"
+         step  :read id
+          if(id=valid)
+                {
+                 step:display  "select option "
+                        Taken  book
+                        Return book
+          step:if(option=Taken book)
+                  {
+           repeat
+              step: read n "number of books in n",i=1
+              step: display "select Books category"
+                         1.CSE
+                         2.ECE
+                         3.EEE
+             step: read Books category
+                     if(Bookscategory=valid)
+                         step : Read  a:"book name in a", b:"Book category in b", c:"author name in c"
+                        if(book name=valid and author name=valid)
+                            {
+                               step: display "book name is " a
+                               step: display "Book category is" b
+                               step: display  "author name is " c
+                            }
+            step :i=i+1
+            until(i<=n)
+                     else{
+                             step: display  "book name or author name is not available"
+                         }
+end
