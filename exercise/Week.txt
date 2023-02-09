@@ -1,0 +1,17 @@
+start
+step:1 Read weeek
+step:2 if(week==1)
+       display "Monday"
+       else if(week==2)
+       display "tuesday"
+       else if(week==3)
+       display "wednesday"
+       else if(week==4)
+       display"thursday"
+       else if(week==5)
+       display"friday"
+       else if(week==6)
+       display"saturday"
+       else
+       display"sunday"
+stop

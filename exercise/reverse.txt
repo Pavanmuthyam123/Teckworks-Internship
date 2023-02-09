@@ -1,0 +1,9 @@
+Begin
+start:1 read n
+step:2 k=n
+step:3 while(k>=1)
+       {
+		display k
+		k=k-1;
+	   }
+stop
