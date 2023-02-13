@@ -1,0 +1,11 @@
+start 
+step:1 Read n
+step:2 if(n%4==0)
+       {
+		display "leap year"
+	   }
+       else
+	   {
+		dispay "not a leap year"
+	   }
+stop

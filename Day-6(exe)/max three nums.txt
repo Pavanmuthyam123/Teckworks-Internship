@@ -1,0 +1,15 @@
+start
+step:1 Read a,b,c
+step:2 if(a>b && a>c)
+       {
+		display "a is greater"
+	   }
+	  else if(b>c)
+		{
+		display "b is greater"
+	    }
+	  else
+		{
+		 display "c is greater"
+        }
+stop

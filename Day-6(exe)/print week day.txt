@@ -1,0 +1,22 @@
+start
+step:1 Read n
+step:2 n=3
+step:3 switch(n)
+		{
+		 case:1 display "monday"
+     	 break
+		 case:2 display "Tuesday"
+     	 break
+		 case:3 display "Wednesday"
+     	 break
+		 case:4 display "Thursday"
+     	 break
+		 case:5 display "Friday"
+     	 break
+		 case:6 display "Saturday"
+     	 break
+		 case:7 display "sunday"
+     	 break
+		 default: display "Weekend"
+     	 break
+stop

@@ -1,0 +1,12 @@
+start
+step:1 Read A,Z
+step:2 A=65,Z=90
+step:3 if(A>=65 && Z<=90)
+		{
+		  display "upper case"
+		}
+	   else
+		{
+		  display" lower case"
+		}
+stop

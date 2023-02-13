@@ -1,0 +1,29 @@
+start
+step:1 Read phy,che,bio,math,com
+step:2 score=phy+che+bio+math+com
+step:3 percent=(score/total marks)*100
+step:4 if(percent>=90)
+		{
+			display "Grade A"
+		}
+	   else if(percent>=80)
+		{
+			display "Grade B"
+		}
+	   else if(percent>=70)
+		{
+			display "Grade C"
+		}
+	   else if(percent>=60)
+		{
+			display "Grade D"
+		}
+	   else if(percent>=40)
+		{
+			display "Grade E"
+		}
+	  else
+		{
+			display "Grade F"
+		}
+stop

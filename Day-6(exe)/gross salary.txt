@@ -1,0 +1,22 @@
+start
+step:1 Read basic salary
+step:2 if(basic sal<=10000)
+		{
+			hra=(20/100)*basic sal
+			da=(80/100)*basic sal
+         }
+	   else if(basic sal<=20000)
+			{
+			  hra=(25/100)*basic sal
+			  da=(90/100)*basic sal
+			}
+       else
+			{
+			 hra=(30/100)*basic sal
+			 da=(95/100)*basic sal
+			}
+step:3 gross sal=basic sal+hra+da
+          display gross sal
+stop
+		
+			

@@ -1,0 +1,15 @@
+start
+step:1 Read n
+step:2 if(n==0)
+		{
+		 display "num is zero"
+		}
+	  else if(n>0)
+		{
+		 display "num is positive"
+		}
+	  else
+		{
+		 display "num is negative"
+		}
+stop

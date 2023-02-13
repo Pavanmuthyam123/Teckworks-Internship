@@ -1,0 +1,11 @@
+start
+step:1 Read n
+step:2 if(n%2==0)
+		{
+		 display "num is even"
+		}
+	   else
+		{
+		 display "num is odd"
+		}
+stop

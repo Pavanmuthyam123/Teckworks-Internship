@@ -1,0 +1,11 @@
+start
+step:1 Read ch
+step:2 if(ch>='a' && ch<='z')||(ch>='A' && ch<='Z')
+		{
+			display "It is a Alphabet"
+        }
+       else
+		{
+			display "it is not alphabet"
+		}
+stop

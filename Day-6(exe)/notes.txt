@@ -1,0 +1,42 @@
+start
+step:1 read amount
+step:2 notes=0
+step:3 while(amount>0)
+      {
+		 if(amount>=500)
+			{
+			 notes=notes+amount/500
+			 amount=amount%500
+			}
+		else if(amount>=200)
+			{
+			  notes=notes+amount/200
+			  amount=amount%200
+			}
+		else if(amount>=100)
+			{
+			  notes=notes+amount/100
+			  amount=amount%100
+			}
+		else if(amount>=50)
+			{
+			  notes=notes+amount/50
+			  amount=amount%50
+			}
+        else if(amount>=20)
+			{
+			  notes=notes+amount/20
+			  amount=amount%20
+			}
+        else 
+			{
+			  notes=notes+amount/10
+			  amount=amount%10
+			}
+		}
+step:4 display notes
+stop
+		
+		
+		
+		
