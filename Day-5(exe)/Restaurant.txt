@@ -1,0 +1,103 @@
+//Restaurant Management System
+start
+step:1 display "Mangathayaruu spicy food Restaurant"
+step:2 display "login page"
+     step: if(customer id==login)
+             {
+                step: display "enter email and password"
+                   if(email==valid && password==valid)
+                        {
+                            step: display "Home page"
+                                     options
+                                      Home
+                                     Food item
+                                     Feedback
+					   }
+   step:3   if(option==1)
+                  {
+                     step:display " welcome"
+                     step: display "web page"
+                  }
+            elseif(option==2)
+                  {
+                     step:display " options"
+                             polavaram  special_dish
+                             Hyderabadi special_dish
+				 }
+  step:4    if(option==1 or option==2)
+                  {
+                      step:display "select Delicious food_item"
+                              1.kadhakali_chicken -180/-
+							2.Bhongu_chicken -200/-
+							3.chicken_kabbab -250/-
+			     }
+  step:5    if(kadhakali_chicken==available)
+                   {
+                       step: display " order quickly"                                                
+                       step: display "enter  current location"
+                       step: read location
+                       step: display "payment Details"
+                              1.online payment
+                              2.cash on delivery
+				  }
+  step:6    if(option==1)
+                   {
+                      step: display "select UPI payment"
+                      step: Read payment
+                      step: display "Transaction"
+			      }
+  step:7    if(Transaction==successful)
+                  {
+                     step:display "order placed"
+                  }
+            else
+				{
+                     step:display "try again"
+                 }
+            elseif(option==2) 
+				{
+                    step: display "order placed successfully"
+                 }
+            else 
+				{
+                    step: display "enter delicious food_item"
+                 }
+            else
+                    step: display "item is not available"
+              elseif(option==3)
+				{
+                    step: display "Home page"
+                              1.your orders Details
+                              2.account Details
+                              3.order tracking
+                               if(option==1)
+                                            {
+                                                step:display " orders Details"
+                                             }
+                                 elseif(option==2)
+                                            {
+                                               step:display "profile details"
+                                             }
+                                 elseif(option==3)
+                                            {
+                                               step:display "order tracking details"
+                                            }
+							   else
+										{
+											step:display "customer unsatisifaction"
+										}  
+  step:8     if(food_item==Tasty)
+                {
+				 step:display "tasty" 
+			   } 
+			else
+				{
+				 step:display "yak"
+				}
+  step:9  stop
+
+             
+
+
+
+                                              

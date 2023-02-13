@@ -1,0 +1,45 @@
+start
+step:1 Read n
+step:2 while(n!=0)
+		{
+		  a=n%10
+         if(a==1)
+		  { 
+			display "one"
+		  }
+         else if(a==3)
+		  {
+			display "three"
+		  }
+         else if(a==4)
+		  {
+			display "four"
+		  }
+		else if(a==5)
+		  {
+			display "five"
+		  }
+		else if(a==6)
+		  {
+			display "six"
+		  }
+		 else if(a==7)
+		  {
+			display "seven"
+		  }
+		else if(a==8)
+		  {
+			display "eight"
+		  }
+		 else if(a==9)
+		  {
+			display "nine"
+		  }
+         else
+          {
+			display "Zero"
+		  }
+    	 	    n=n/10
+	    }
+stop
+		 

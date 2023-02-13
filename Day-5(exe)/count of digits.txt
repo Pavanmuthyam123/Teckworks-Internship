@@ -1,0 +1,9 @@
+start
+step:1 Read n
+step:2 while(n!=0)
+		{
+			a=n/10
+			n=n+1
+		}
+step:3 display n
+stop

@@ -1,0 +1,11 @@
+start
+step:1 read n
+step:2 rev=0,n=075
+step:3 while(n>=0)
+       {
+		d=n%10
+		n=n/10
+        rev=rev*10+d
+	   }
+step:4 display rev
+stop
