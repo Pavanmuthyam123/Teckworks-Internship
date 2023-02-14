@@ -1,0 +1,15 @@
+class EmployeeDetails
+    {
+      public static void main(string args[])
+		{
+			int emp_id,salary,age;
+			string name,address,department,street;
+			int emp_id=5201312;
+			int salary=30000;
+			int age=21;
+			string name="pavan";
+			string address="polavaram";
+			string department="software developer";
+			string street="Ramalayam street";
+		}
+    }

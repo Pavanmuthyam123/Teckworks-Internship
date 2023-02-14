@@ -1,0 +1,17 @@
+class student
+    {
+      public static void main(string args[])
+		{
+			string name,gender;
+			int id,marks,age,marks;
+  			double phno;
+			character grade;
+			string name="pavan";
+			string gender="male";
+			int id=5201312;
+			int marks=333;
+			int age=21;
+			double phno=7995263297;
+			character grade='A';
+		}
+	}
