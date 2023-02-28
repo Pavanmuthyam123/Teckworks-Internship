@@ -8,8 +8,7 @@ class copyarray
       int n=s.nextInt();
       System.out.println("enter array elements");
       int array[]=new int[n];
-      int i;
-      for(i=0;i<n;i++)
+      for(int i=0;i<n;i++)
         {
           array[i]=s.nextInt();
         }
