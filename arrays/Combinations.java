@@ -16,7 +16,7 @@ class Combinations
     }
     public static void comb(int a[],int n)
     {
-       int count0=0,count2=0,count1=0;
+      int count0=0,count2=0,count1=0;
       for(int i=0;i<=n-1;i++)
         {
          if(a[i]==0)
