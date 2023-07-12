@@ -7,7 +7,6 @@ class palindrom
       String str=new String();
       Scanner s=new Scanner(System.in);
       str=s.nextLine();
-      
       System.out.println(str);
       boolean Palindrome = true;
       int n=str.length();

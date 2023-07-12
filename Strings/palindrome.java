@@ -17,7 +17,7 @@ public class palindrome
       }
       
     }
-    public static String palindrome(String s1)
+    public static String palindrom(String s1)
     {
       String s2 ="";
       for(int i = s1.length()-1;i>=0;i--)

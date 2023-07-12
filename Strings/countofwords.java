@@ -1,4 +1,4 @@
-import java.util.Scanner;
+11import java.util.Scanner;
 class countofwords 
 {
     public static void main(String[] args) 
